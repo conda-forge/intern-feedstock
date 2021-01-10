@@ -1,4 +1,4 @@
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 package:
   name: intern
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/jhuapl-boss/intern/archive/v{{ version }}.tar.gz
-  sha256: 1768f77e2492539c6c5a2161c4fbc18dbe503835f6fb2340df38f33359a23992
+  sha256: 880f0c37eec2e5580f401e8da13cbe16b272d6eb34efa23e947951ce6d6debae
 
 build:
   number: 0
