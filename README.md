@@ -5,11 +5,9 @@ Home: https://github.com/jhuapl-boss/intern
 
 Package license: Apache 2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/intern-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python 2/3 SDK for interacting with the Boss REST API 
-
-
 
 Current build status
 ====================
@@ -118,7 +116,4 @@ Feedstock Maintainers
 
 * [@jtpdowns](https://github.com/jtpdowns/)
 * [@stuarteberg](https://github.com/stuarteberg/)
-
-
-<!-- dummy commit to enable rerendering -->
 
