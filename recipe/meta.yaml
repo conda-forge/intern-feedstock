@@ -15,13 +15,15 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3
     - pip
   run:
-    - python
+    - python >=3
     - requests >=2.11.1
     - python-blosc >=1.4.4
     - six
+    - numpy
+    - zmesh
 
 test:
 
@@ -40,7 +42,7 @@ test:
 
 about:
   home: https://github.com/jhuapl-boss/intern
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: license
   summary: 'Python 2/3 SDK for interacting with the Boss REST API '
 
