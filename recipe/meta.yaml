@@ -25,6 +25,7 @@ requirements:
     - numpy
     - zmesh
     - psutil
+    - pillow
 
 test:
 
