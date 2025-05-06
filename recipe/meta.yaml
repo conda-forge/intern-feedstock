@@ -1,16 +1,16 @@
-{% set version = "1.2.0" %}
+{% set version = "1.4.2" %}
 
 package:
   name: intern
   version: {{ version }}
 
 source:
-  url: https://github.com/jhuapl-boss/intern/archive/v{{ version }}.tar.gz
-  sha256: 72aedcafff436190282ace8954454c647dc3524862efa9eca45e315d4fc9b8e4
+  url: https://pypi.org/packages/source/i/intern/intern-{{ version }}.tar.gz
+  sha256: 63ebeb114e5f5ae714255327d9f80a8af4ec354c8375b0468c5b1131952dce6a
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
