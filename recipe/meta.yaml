@@ -10,7 +10,9 @@ source:
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . -vv
+  script:
+    - sed -i.bak '/^nose2$/d' requirements.txt
+    - {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
