@@ -27,6 +27,7 @@ requirements:
     - psutil
     - pillow
     - tqdm
+    - joblib
 
 test:
 
