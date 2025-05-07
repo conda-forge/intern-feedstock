@@ -26,6 +26,7 @@ requirements:
     - zmesh
     - psutil
     - pillow
+    - tqdm
 
 test:
 
